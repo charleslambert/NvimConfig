@@ -62,6 +62,10 @@ endif
 set background=dark
 colorscheme Tomorrow-Night
 
+highlight TermCursor ctermfg=red guifg=red
+set splitbelow
+set splitright
+
 "=====================
 "= Keyboard Bindings =
 "=====================
@@ -85,7 +89,8 @@ nnoremap <leader>ff :FZF ~<CR>
 nnoremap <leader>fT :TagbarToggle<CR>
 map <leader>j <Plug>(easymotion-prefix)
 nnoremap <leader>gb :Gblame<CR>
-tnoremap <Esc> <C-\><C-n>
+nnoremap <leader>at :term<CR>
+tnoremap fd <C-\><C-n>
 
 "======================
 "= Neoformat Settings =
