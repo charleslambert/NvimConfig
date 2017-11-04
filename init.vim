@@ -85,6 +85,7 @@ nnoremap <leader>ff :FZF ~<CR>
 nnoremap <leader>fT :TagbarToggle<CR>
 map <leader>j <Plug>(easymotion-prefix)
 nnoremap <leader>gb :Gblame<CR>
+tnoremap <Esc> <C-\><C-n>
 
 "======================
 "= Neoformat Settings =
